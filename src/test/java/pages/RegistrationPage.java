@@ -64,7 +64,4 @@ public class RegistrationPage {
         $x("//td[text()='Address']").parent().shouldHave(text(currentAddress));
         $x("//td[text()='Haryana Panipat']").shouldBe(visible);
     }
-
-
-
 }

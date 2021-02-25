@@ -50,3 +50,9 @@ tasks.withType(Test) {
 test {
     useJUnitPlatform()
 }
+
+task failed_tests(type: Test) {
+    useJUnitPlatform(){
+        includeTags 'failed'
+    }
+}
