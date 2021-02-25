@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
+
 public class RegistrationPageTests extends TestBase {
     RegistrationPage registrationPage;
 

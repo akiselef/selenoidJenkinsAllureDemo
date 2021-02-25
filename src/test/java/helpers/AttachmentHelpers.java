@@ -40,7 +40,7 @@ public class AttachmentHelpers {
     }
 
     public static String getVideoUrl() {
-        return System.getProperty("video_storage") + getSessionId() + ".mp4";
+        return System.getProperty("video_source") + getSessionId() + ".mp4";
     }
 
     public static String getConsoleLogs() {
